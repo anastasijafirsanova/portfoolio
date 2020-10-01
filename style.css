@@ -1,0 +1,323 @@
+/*---------------------*/
+/* --- ESIMENE LEHT ---*/
+/*---------------------*/
+
+.esimene {
+  background: url("kosmos.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.pealkiri {
+  color: #c0c0c0;
+  font-family: "PT Mono", monospace;
+  position: relative;
+  width: 700px;
+  height: 51px;
+  font-size: 40px;
+  line-height: 70px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  mix-blend-mode: normal;
+  bottom: -170px;
+  left: -40px;
+}
+
+.tahed {
+  color: #c0c0c0;
+  position: relative;
+  width: 700px;
+  height: 51px;
+  font-size: 60px;
+  line-height: 70px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  mix-blend-mode: normal;
+  bottom: -200px;
+  left: -57px;
+}
+
+a.button1 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: rgba(255, 255, 255, 0.18);
+
+  text-decoration: none;
+  color: #ffff;
+  margin-left: 47.2%;
+  margin-top: 34%;
+  padding-left: 35px;
+  padding-top: 16px;
+  padding-right: 35px;
+  padding-bottom: 16px;
+  text-align: center;
+  font-family: "PT Mono", monospace;
+}
+
+a:hover {
+  color: #979797;
+  transition: 0.25s;
+}
+/*---------------------*/
+/* ------- INFO -------*/
+/*---------------------*/
+
+.teine {
+  background: url("tahed.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  height: 1024px;
+  width: 1920px;
+}
+
+.pealkiri2 {
+  color: #c0c0c0;
+  background-color: rgba(255, 255, 255, 0.18);
+  font-family: "PT Mono", monospace;
+  position: absolute;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: normal;
+  mix-blend-mode: normal;
+  margin-top: 80px;
+  margin-left: 70px;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 0px;
+}
+
+.tekst {
+  color: #c0c0c0;
+  font-family: "PT Mono", monospace;
+  position: relative;
+  bottom: -300px;
+  left: 100px;
+  width: 1016px;
+  height: 671px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+a.button2 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: rgba(255, 255, 255, 0.18);
+  font-family: "PT Mono", monospace;
+  padding-left: 30px;
+  padding-top: 16px;
+  padding-right: 30px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffff;
+  margin-left: 830px;
+  margin-top: 160px;
+  position: absolute;
+}
+
+a.button2:hover {
+  color: #888888;
+  transition: 0.25s;
+}
+
+a.button3:hover {
+  color: #888888;
+  transition: 0.25s;
+}
+
+a.button3 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: rgba(255, 255, 255, 0.18);
+  font-family: "PT Mono", monospace;
+  padding-left: 35px;
+  padding-top: 16px;
+  padding-right: 35px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffff;
+  margin-left: 970px;
+  margin-top: 160px;
+  position: absolute;
+}
+
+/*---------------------*/
+/* ----- GALERII ------*/
+/*---------------------*/
+
+.kolmas {
+  background: url("tahed.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  height: 1024px;
+  width: 1920px;
+}
+
+.pealkiri3 {
+  color: #c0c0c0;
+  background-color: rgba(255, 255, 255, 0.18);
+  font-family: "PT Mono", monospace;
+  position: absolute;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: normal;
+  mix-blend-mode: normal;
+  margin-top: 80px;
+  margin-left: 70px;
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  padding-bottom: 35px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 0px;
+}
+
+.column {
+  float: left;
+  width: 130px;
+  height: 588px;
+  padding: 150px;
+  position: relative;
+  margin-top: 200px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a.button4 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: rgba(255, 255, 255, 0.18);
+  font-family: "PT Mono", monospace;
+  padding-left: 30px;
+  padding-top: 16px;
+  padding-right: 30px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffff;
+  margin-left: 830px;
+  margin-top: -245px;
+  position: absolute;
+}
+
+a.button4:hover {
+  color: #888888;
+  transition: 0.25s;
+}
+
+a.button5 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: rgba(255, 255, 255, 0.18);
+  font-family: "PT Mono", monospace;
+  padding-left: 35px;
+  padding-top: 16px;
+  padding-right: 35px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffff;
+  margin-left: 970px;
+  margin-top: -245px;
+  position: absolute;
+}
+
+a.button5:hover {
+  color: #888888;
+  transition: 0.25s;
+}
+
+/*---------------------*/
+/* ----- KONTAKT ------*/
+/*---------------------*/
+
+.neljas {
+  background: url("tahed.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  height: 1024px;
+  width: 1920px;
+}
+
+.pealkiri4 {
+  color: #c0c0c0;
+  background-color: rgba(255, 255, 255, 0.18);
+  font-family: "PT Mono", monospace;
+  position: absolute;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: normal;
+  mix-blend-mode: normal;
+  margin-top: 80px;
+  margin-left: 70px;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 0px;
+}
+
+.tekst2 {
+  color: #c0c0c0;
+  font-family: "PT Mono", monospace;
+  position: relative;
+  bottom: -300px;
+  left: 100px;
+  width: 1016px;
+  height: 671px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+a.button6 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: rgba(255, 255, 255, 0.18);
+  text-decoration: none;
+  color: #ffff;
+  transform: translateX(46.5vw);
+  margin-top: 9%;
+  padding-left: 35px;
+  padding-top: 16px;
+  padding-right: 35px;
+  padding-bottom: 16px;
+  text-align: center;
+  font-family: "PT Mono", monospace;
+}
+
+a.button6:hover {
+  color: #888888;
+  transition: 0.25s;
+}
